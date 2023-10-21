@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* write your CSS here */
+body {
+    font-family: sans-serif;
+    background-color: #ffe9bd;
+}
+
+.container {
+    width: 300px;
+    margin: 200px auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 0.2);
+}
+
+.content {
+    padding: 20px 40px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: #f5891d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.info {
+    /* border: 2px solid blue; */
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.info > h1 {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+
+.author {
+    display: flex;
+}
+
+.author > img {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#author-name {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#timestamp {
+    color: gray;
+}
